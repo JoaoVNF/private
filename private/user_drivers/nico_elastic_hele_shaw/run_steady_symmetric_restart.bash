@@ -1,0 +1,1 @@
+./elastic_hele_shaw_symmetric_displ_steady_continuation --inc_thin_films --aspect_ratio 0.035 --ca 0.471429 --flux_ahead -0.617653 --max_el_area 0.025 --max_permitted_spatial_error 2.5e-05 --max_polyline_length_bubble -1 --min_el_area 0.0025 --min_permitted_spatial_error 5e-06 --pre_stress 30000 --q 13879.3 --adapt_frequency -1 --restart_file restart_proc0_102.dat --dir RESLT/ &

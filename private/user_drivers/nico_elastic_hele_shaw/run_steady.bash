@@ -1,0 +1,1 @@
+./elastic_hele_shaw_displ_steady_continuation --inc_thin_films --max_el_area 0.05 --max_permitted_spatial_error 5e-05 --max_polyline_length_bubble -1 --min_el_area 0.005 --min_permitted_spatial_error 1e-05 --pre_stress 30000 --adapt_frequency 3 --dir RESLT/ &

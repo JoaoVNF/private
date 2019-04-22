@@ -1,0 +1,29 @@
+Nico's postdoc stuff. The scripts do the following
+
+
+-rwxr-xr-x 1 mheil users 196 Oct 25 08:27 post_process.bash
+
+what it says...
+
+-rw-r--r-- 1 mheil users 259 Oct 25 08:27 run_steady.bash
+
+Moving frame formulation.
+Starts from rigid Hele Shaw and then does some continuation (specified
+in driver code). Flag --inc_thin_films includes presence of thin films
+whose parameters are based on the tip capillary number. See write-up.
+
+-rw-r--r-- 1 mheil users 370 Oct 25 08:27 run_steady_restart.bash
+
+Restarts runs from above. Need to specify the flux ahead of the bubble
+that was imposed when the restart file was generated (it's in the trace file).
+
+-rw-r--r-- 1 mheil users 270 Oct 25 08:27 run_steady_symmetric.bash
+-rw-r--r-- 1 mheil users 381 Oct 25 08:27 run_steady_symmetric_restart.bash
+
+Ditto but for symmetric code.
+
+-rwxr-xr-x 1 mheil users 310 Oct 25 08:27 run_unsteady.bash
+
+Unsteady, direct simulation in the lab frame and the capillary number
+for the thin film corrections (if used) is based on the imposed
+flow rate.
